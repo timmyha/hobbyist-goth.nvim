@@ -3,7 +3,7 @@ return {
     bg = "#1c1818",
     none = "#1c1818",
     --17161B
-    dark = "#0e0e0d",
+    dark = "#121010",
     comment = "#82807c",
     popup_back = "#1c1818",
     cursor_fg = "#5cb8f9",
