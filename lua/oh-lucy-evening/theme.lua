@@ -15,13 +15,8 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
-    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg, style = "bold" },
-    LineflyInsert = { bg = colors.blue_type, fg = colors.fg, style = "bold" },
-    LineflyVisual = { bg = colors.pink, fg = colors.fg, style = "bold" },
-    LineflyCommand = { bg = colors.yellow, fg = colors.fg, style = "bold" },
 
     Boolean = { fg = colors.boolean, style = config.italic_booleans },
-
     Character = { fg = colors.yellow },
     ColorColumn = { bg = colors.black1 },
     Comment = { fg = colors.comment, style = "italic" },
@@ -479,7 +474,7 @@ M.plugins = {
     TelescopeBorder = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection = { fg = colors.bg, bg = colors.black, style = "bold" },
+    TelescopeSelection = { fg = colors.black, bg = colors.black, style = "bold" },
     -----------------------------------------
 
     -----------------------------------------
@@ -545,6 +540,14 @@ M.plugins = {
     cmakeVariable = { fg = colors.white },
     cmakeKWuse_mangled_mesa = { fg = colors.fg, style = "italic" },
     -----------------------------------------
+
+    -----------------------------------------
+    -- linefly
+    -----------------------------------------
+    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg, style = "bold" },
+    LineflyInsert = { bg = colors.blue_type, fg = colors.fg, style = "bold" },
+    LineflyVisual = { bg = colors.pink, fg = colors.fg, style = "bold" },
+    LineflyCommand = { bg = colors.yellow, fg = colors.fg, style = "bold" },
 
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
