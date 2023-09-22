@@ -3,7 +3,7 @@ return {
     bg = "#1c1818",
     none = "#1c1818",
     --17161B
-    dark = "#121010",
+    dark = "#1a1818",
     comment = "#524A51",
     popup_back = "#1c1818",
     cursor_fg = "#5cb8f9",
@@ -31,7 +31,7 @@ return {
     blue_type = "#2a607d",
     black1 = "#29292E",
     black = "#1A191E",
-    white1 = "#DED7D0",
+    white1 = "#b8b3ae",
     white = "#DED7D0",
     gray_punc = "#938884",
     gray2 = "#7F737D",
