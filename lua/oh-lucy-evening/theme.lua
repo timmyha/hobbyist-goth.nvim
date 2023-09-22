@@ -15,10 +15,10 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
-    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg },
-    LineflyInsert = { bg = colors.blue_type, fg = colors.fg },
-    LineflyVisual = { bg = colors.pink, fg = colors.fg },
-    LineflyCommand = { bg = colors.yellow, fg = colors.fg },
+    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg, style = "bold" },
+    LineflyInsert = { bg = colors.blue_type, fg = colors.fg, style = "bold" },
+    LineflyVisual = { bg = colors.pink, fg = colors.fg, style = "bold" },
+    LineflyCommand = { bg = colors.yellow, fg = colors.fg, style = "bold" },
 
     Boolean = { fg = colors.boolean, style = config.italic_booleans },
 
