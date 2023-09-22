@@ -226,7 +226,7 @@ M.plugins = {
     CmpItemKindEnum = { fg = colors.blue_type },
     CmpItemKindStruct = { fg = colors.blue_type },
     CmpItemKindKeyword = { fg = colors.pink },
-    CmpItemMenu = { fg = colors.pink },
+    CmpItemMenu = { fg = colors.black, bg = "#1b1818" },
     CmpItemKindOperator = { fg = colors.red_key_w },
     -----------------------------------------
 
@@ -547,7 +547,7 @@ M.plugins = {
     LineflyNormal = { bg = colors.red_key_w, fg = colors.fg, style = "bold" },
     LineflyInsert = { bg = colors.blue_type, fg = colors.fg, style = "bold" },
     LineflyVisual = { bg = colors.pink, fg = colors.fg, style = "bold" },
-    LineflyCommand = { bg = colors.yellow, fg = colors.fg, style = "bold" },
+    LineflyCommand = { bg = colors.yellow, fg = "#1b1818", style = "bold" },
 
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
