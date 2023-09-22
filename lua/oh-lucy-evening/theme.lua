@@ -559,7 +559,7 @@ M.plugins = {
     ["@constant.builtin"] = { fg = colors.pink },
     ["@constant.macro"] = { fg = colors.blue_type },
     ["@constant"] = { fg = colors.pink },
-    ["@constructor"] = { fg = colors.white },
+    ["@constructor"] = { fg = colors.blue_type },
     ["@text.emphasis"] = { style = "italic" },
     ["@error"] = { fg = colors.red_err, bg = colors.bg, style = "bold" },
     ["@exception"] = { fg = colors.red_key_w },
@@ -607,7 +607,7 @@ M.plugins = {
     ["@type.qualifier"] = { fg = colors.red_key_w },
     ["@text.uri"] = { fg = colors.yellow, style = "underline" },
     ["@text.underline"] = { style = "underline" },
-    ["@variable"] = { fg = colors.blue_type },
+    ["@variable"] = { fg = colors.white },
     ["@variable.builtin"] = { fg = colors.pink },
     ["@define"] = { fg = colors.red_key_w },
     -----------------------------------------
