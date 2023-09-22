@@ -1,6 +1,6 @@
 return {
-    fg = "#857171",
-    bg = "#291e1e",
+    fg = "#82807c",
+    bg = "291e1e",
     none = "#1c1818",
     --17161B
     dark = "#181515",
@@ -41,5 +41,5 @@ return {
     boolean = "#5b3c80",
     orange_wr = "#b34827",
     pink = "#64418c",
-    yellow = "#75682b",
+    yellow = "#66752b",
 }
