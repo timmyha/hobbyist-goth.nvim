@@ -607,7 +607,7 @@ M.plugins = {
     ["@type.qualifier"] = { fg = colors.red_key_w },
     ["@text.uri"] = { fg = colors.yellow, style = "underline" },
     ["@text.underline"] = { style = "underline" },
-    ["@variable"] = { fg = colors.white },
+    ["@variable"] = { fg = colors.blue_type },
     ["@variable.builtin"] = { fg = colors.pink },
     ["@define"] = { fg = colors.red_key_w },
     -----------------------------------------
