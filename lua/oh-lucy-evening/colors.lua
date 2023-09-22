@@ -30,7 +30,7 @@ return {
     green = "#2a7d52",
     blue_type = "#2a607d",
     black1 = "#29292E",
-    black = "#1A191E",
+    black = "#82807c",
     white1 = "#b8b3ae",
     white = "#DED7D0",
     gray_punc = "#938884",
