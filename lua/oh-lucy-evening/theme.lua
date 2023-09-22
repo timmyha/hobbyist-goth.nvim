@@ -15,6 +15,7 @@ M.base = {
     -----------------------------------------
     --        Editors settings
     -----------------------------------------
+    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg },
     Boolean = { fg = colors.boolean, style = config.italic_booleans },
 
     Character = { fg = colors.yellow },
