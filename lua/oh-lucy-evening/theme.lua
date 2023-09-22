@@ -474,7 +474,7 @@ M.plugins = {
     TelescopeBorder = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection = { fg = colors.black, bg = colors.black, style = "bold" },
+    TelescopeSelection = { fg = "#1b1818", bg = colors.black, style = "bold" },
     -----------------------------------------
 
     -----------------------------------------
