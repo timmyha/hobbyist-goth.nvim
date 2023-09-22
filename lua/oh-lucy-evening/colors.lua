@@ -1,6 +1,6 @@
 return {
-    fg = "#a18f8f",
-    bg = "#2b2525",
+    fg = "#857171",
+    bg = "#291e1e",
     none = "#1c1818",
     --17161B
     dark = "#181515",
@@ -24,11 +24,11 @@ return {
     vsplit_bg = "#2E2930",
     visual_select_bg = "#29292E",
 
-    red_key_w = "#572435",
+    red_key_w = "#752f4d",
     red_err = "#ad2b63",
-    green_func = "#245732",
+    green_func = "#2a7d52",
     green = "#2a7d52",
-    blue_type = "#244357",
+    blue_type = "#2a607d",
     black1 = "#29292E",
     black = "#82807c",
     white1 = "#b8b3ae",
@@ -38,8 +38,8 @@ return {
     gray1 = "#413E41",
     gray = "#322F32",
     orange = "#7d313a",
-    boolean = "#3c2457",
-    orange_wr = "#573324",
-    pink = "#572447",
-    yellow = "#4b5724",
+    boolean = "#5b3c80",
+    orange_wr = "#b34827",
+    pink = "#64418c",
+    yellow = "#75682b",
 }
