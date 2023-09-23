@@ -1,14 +1,14 @@
 return {
     fg = "#82807c",
-    bg = "291e1e",
+    bg = "#291e1e",
     none = "#1c1818",
     --17161B
     dark = "#181515",
     comment = "#524A51",
     popup_back = "#1c1818",
-    cursor_fg = "#5cb8f9",
+    cursor_fg = "#291e1e",
     context = "#515761",
-    cursor_bg = "#1c1818",
+    cursor_bg = "#6c334c",
     accent = "#BBBBBB",
     diff_add = "#2a7d52",
     diff_change = "#2a607d",
