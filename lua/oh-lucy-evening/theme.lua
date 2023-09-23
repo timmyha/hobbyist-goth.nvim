@@ -20,7 +20,7 @@ M.base = {
     Character = { fg = colors.yellow },
     ColorColumn = { bg = colors.black1 },
     Comment = { fg = colors.comment, style = "italic" },
-    Conceal = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
+    Conceal = { fg = colors.fg, bg = colors.bg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
     Conditional = { fg = colors.red_key_w },
     Constant = { fg = colors.pink },
     Cursor = { fg = colors.yellow, bg = colors.bg },
@@ -69,7 +69,7 @@ M.base = {
     MatchWordCur = { style = "underline" },
     ModeMsg = { fg = colors.fg, bg = colors.bg },
     MoreMsg = { fg = colors.orange_wr },
-    MsgArea = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
+    MsgArea = { fg = colors.fg, bg = colors.bg },
     MsgSeparator = { fg = colors.fg, bg = colors.bg },
 
     NonText = { fg = colors.gray2 },
@@ -471,7 +471,7 @@ M.plugins = {
     -----------------------------------------
     --    telescope: github.com/nvim-telescope/telescope.nvim
     -----------------------------------------
-    TelescopeBorder = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
+    TelescopeBorder = { fg = colors.white, bg = colors.bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
     TelescopeSelection = { fg = "#1b1818", bg = colors.black, style = "bold" },
