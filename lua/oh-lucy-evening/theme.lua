@@ -73,7 +73,7 @@ M.base = {
     MsgSeparator = { fg = colors.fg, bg = colors.bg },
 
     NonText = { fg = colors.gray2 },
-    Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
+    Normal = { fg = colors.fg, bg = colors.bg },
     NormalFloat = { bg = colors.dark },
     NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
     Number = { fg = colors.orange },
