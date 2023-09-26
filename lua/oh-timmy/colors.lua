@@ -29,7 +29,7 @@ return {
     green_func = "#74C7A4",
     green = "#76C5A4",
     blue_type = "#8DBBD3",
-    black1 = "#272932",
+    black1 = "#7C7E8C",
     black = "#14161D",
     white1 = "#D7D7D7",
     white = "#E9E9E9",
