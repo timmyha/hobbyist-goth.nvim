@@ -1,7 +1,7 @@
 return {
     fg = "#D7D7D7",
-    bg = "#1B1D26",
-    none = "#1B1D26",
+    bg = "#1b1818",
+    none = "#1b1818",
     --14161D
     dark = "#14161D",
     comment = "#5E6173",
@@ -18,7 +18,7 @@ return {
     line_bg = "#1B1D26",
     gutter_bg = "#1B1D26",
     non_text = "#606978",
-    selection_bg = "#5E697E",
+    selection_bg = "#7C7E8C",
     selection_fg = "#495163",
     vsplit_fg = "#cccccc",
     vsplit_bg = "#21252D",

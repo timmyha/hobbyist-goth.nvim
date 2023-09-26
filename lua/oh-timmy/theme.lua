@@ -106,7 +106,7 @@ M.base = {
     StatusLineNC = { bg = colors.dark, fg = colors.gray_punc },
     StatusLineSeparator = { fg = colors.dark },
     StatusLineTerm = { fg = colors.green_func, bg = colors.black },
-    StatusLineTermNC = { bg = colors.gray_punc, fg = colors.black },
+    StatusLineTermNC = { fg = colors.gray_punc, bg = colors.black },
     StorageClass = { fg = colors.blue_type },
     String = { fg = colors.yellow },
     Structure = { fg = colors.green_func },
@@ -544,10 +544,10 @@ M.plugins = {
     -----------------------------------------
     -- linefly
     -----------------------------------------
-    LineflyNormal = { bg = colors.red_key_w, fg = colors.fg, style = "bold" },
-    LineflyInsert = { bg = colors.blue_type, fg = colors.fg, style = "bold" },
-    LineflyVisual = { bg = colors.pink, fg = colors.fg, style = "bold" },
-    LineflyCommand = { bg = colors.yellow, fg = "#1b1818", style = "bold" },
+    LineflyNormal = { fg = colors.red_key_w, bg = colors.fg, style = "bold" },
+    LineflyInsert = { fg = colors.blue_type, bg = colors.fg, style = "bold" },
+    LineflyVisual = { fg = colors.pink, bg = colors.fg, style = "bold" },
+    LineflyCommand = { fg = colors.yellow, bg = "#1b1818", style = "bold" },
 
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
