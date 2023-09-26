@@ -126,7 +126,7 @@ M.base = {
     Variable = { fg = colors.white },
     VertSplit = { fg = colors.vsplit_bg },
     Visual = { fg = colors.bg, bg = colors.pink, style = "bold" },
-    VisualNOS = { fg = colors.selection_fg },
+    VisualNOS = { fg = colors.pink },
 
     WarningMsg = { fg = colors.orange_wr, bg = colors.none },
     Whitespace = { fg = colors.non_text },
@@ -474,7 +474,7 @@ M.plugins = {
     TelescopeBorder = { fg = colors.white, bg = colors.bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection = { fg = "#1b1818", bg = colors.black, style = "bold" },
+    TelescopeSelection = { fg = colors.red_key_w, bg = colors.black, style = "bold" },
     -----------------------------------------
 
     -----------------------------------------
