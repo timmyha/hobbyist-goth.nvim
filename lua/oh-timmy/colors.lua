@@ -29,7 +29,7 @@ return {
     red_err = "#a990a9",
     green_func = "#9badad",
     green = "#9badad",
-    blue_type = "#8a96b7",
+    blue_type = "#70a885",
     black1 = "#7C7E8C",
     black = "#7C7E8C",
     white1 = "#D7D7D7",
