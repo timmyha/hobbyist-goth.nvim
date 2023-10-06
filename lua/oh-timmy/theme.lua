@@ -575,7 +575,7 @@ M.plugins = {
     ["@include"] = { fg = colors.red_key_w },
     ["@keyword"] = { fg = colors.red_key_w },
     ["@keyword.function"] = { fg = colors.red_key_w },
-    ["@keyword.operator"] = { fg = colors.pink },
+    ["@keyword.operator"] = { fg = colors.red_key_w },
     ["@keyword.return"] = { fg = colors.red_key_w },
     ["@none"] = { fg = colors.fg },
     ["@label"] = { fg = colors.pink },
