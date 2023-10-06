@@ -553,7 +553,7 @@ M.plugins = {
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
     -----------------------------------------
     ["@annotation"] = { fg = colors.yellow },
-    ["@attribute"] = { fg = colors.white },
+    ["@attribute"] = { fg = colors.green },
     ["@boolean"] = { fg = colors.pink, style = config.italic_booleans },
     ["@character"] = { fg = colors.yellow },
     ["@character.special"] = { fg = colors.yellow },
