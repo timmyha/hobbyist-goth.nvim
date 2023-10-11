@@ -23,7 +23,7 @@ M.base = {
     Conceal = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
     Conditional = { fg = colors.pink },
     Constant = { fg = colors.pink },
-    Cursor = { fg = colors.cursor_fg, bg = colors.cursor_bg },
+    Cursor = { fg = colors.cursor_fg, bg = colors.red_key_w },
     CursorColumn = { fg = "NONE", bg = "NONE" },
     CursorIM = { fg = colors.cursor_fg, bg = colors.cursor_bg },
     CursorLine = { bg = colors.bg },
