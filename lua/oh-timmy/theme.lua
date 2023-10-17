@@ -613,6 +613,10 @@ M.plugins = {
     ["@variable"] = { fg = colors.white },
     ["@variable.builtin"] = { fg = colors.pink },
     ["@define"] = { fg = colors.red_key_w },
+    ["@@text.title.1.marker.markdown"] = { fg = colors.red_key_w, style = "bold" },
+    ["@@text.title.2.marker.markdown"] = { fg = colors.pink, style = "bold" },
+    ["@@text.title.3.marker.markdown"] = { fg = colors.blue, style = "bold" },
+    ["@@text.title.4.marker.markdown"] = { fg = colors.green, style = "bold" },
 
     -----------------------------------------
 }
