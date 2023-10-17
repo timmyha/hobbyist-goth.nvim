@@ -104,7 +104,7 @@ M.base = {
     Statement = { fg = colors.red_key_w },
     StatusLine = { fg = colors.dark, bg = colors.gray_punc },
     StatusLineNC = { fg = colors.dark, bg = colors.gray_punc },
-    StatusLineSeparator = { fg = colors.dark },
+    StatusLineSeparator = { fg = colors.bg },
     StatusLineTerm = { fg = colors.green_func, bg = colors.bg },
     StatusLineTermNC = { fg = colors.gray_punc, bg = colors.bg },
     StorageClass = { fg = colors.blue_type },
