@@ -27,7 +27,7 @@ M.base = {
     CursorColumn = { fg = "NONE", bg = "NONE" },
     CursorIM = { fg = colors.cursor_fg, bg = colors.cursor_bg },
     CursorLine = { bg = colors.bg },
-    CursorLineNr = { fg = colors.pink, bg = colors.gutter_bg, style = "bold" },
+    CursorLineNr = { fg = colors.pink, bg = colors.bg, style = "bold" },
 
     Debug = { fg = colors.fg },
     Define = { fg = colors.blue_type },
@@ -60,7 +60,7 @@ M.base = {
     Keyword = { fg = colors.red_key_w },
 
     Label = { fg = colors.red_key_w },
-    LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+    LineNr = { fg = colors.line_fg, bg = colors.bg },
 
     Macro = { fg = colors.blue_type },
     MatchParen = { fg = colors.black, bg = colors.pink },
@@ -102,7 +102,7 @@ M.base = {
     SpellLocal = { fg = colors.green, style = "underline" },
     SpellRare = { fg = colors.pink, style = "underline" },
     Statement = { fg = colors.red_key_w },
-    StatusLine = { fg = colors.dark, bg = colors.gray_punc },
+    StatusLine = { fg = colors.dark, bg = colors.bg },
     StatusLineNC = { fg = colors.dark, bg = colors.gray_punc },
     StatusLineSeparator = { fg = colors.dark },
     StatusLineTerm = { fg = colors.green_func, bg = colors.black },
