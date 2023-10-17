@@ -544,10 +544,10 @@ M.plugins = {
     -----------------------------------------
     -- linefly
     -----------------------------------------
-    LineflyNormal = { fg = colors.red_key_w, bg = colors.dark, style = "bold" },
-    LineflyInsert = { fg = colors.blue_type, bg = colors.dark, style = "bold" },
-    LineflyVisual = { fg = colors.pink, bg = colors.dark, style = "bold" },
-    LineflyCommand = { fg = colors.yellow, bg = colors.dark, style = "bold" },
+    LineflyNormal = { fg = colors.red_key_w, bg = colors.bg, style = "bold" },
+    LineflyInsert = { fg = colors.blue_type, bg = colors.bg, style = "bold" },
+    LineflyVisual = { fg = colors.pink, bg = colors.bg, style = "bold" },
+    LineflyCommand = { fg = colors.yellow, bg = colors.bg, style = "bold" },
 
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
