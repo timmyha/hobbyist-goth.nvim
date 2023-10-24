@@ -16,7 +16,7 @@ return {
     cl_bg = "#707891",
     diff_text = "#568BB4",
     line_fg = "#555B6C",
-    line_bg = "#2c3039",
+    line_bg = "#1b1818",
     gutter_bg = "#1b1818",
     non_text = "#606978",
     selection_bg = "#7C7E8C",
