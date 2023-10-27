@@ -309,7 +309,6 @@ M.plugins = {
     DiagnosticUnderlineWarn = { bg = "#5e4a3a", fg = colors.fg, style = "none" },
 
     DiagnosticVirtualTextError = { bg = "#5e3a3a", fg = colors.fg },
-    DiagnosticVirtualTextHint = { fg = colors.gray2 },
 
     NoicePopupBorder = { bg = colors.bg, fg = colors.fg },
     NoicePopupmenuBorder = { bg = colors.bg, fg = colors.fg },
