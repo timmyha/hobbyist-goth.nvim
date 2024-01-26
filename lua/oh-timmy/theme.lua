@@ -108,7 +108,7 @@ M.base = {
     StatusLineTerm = { fg = colors.green_func, bg = colors.bg },
     StatusLineTermNC = { fg = colors.gray_punc, bg = colors.bg },
     StorageClass = { fg = colors.blue_type },
-    String = { fg = colors.yellow },
+    String = { fg = colors.fg},
     Structure = { fg = colors.green_func },
     Substitute = { fg = colors.gray2, bg = colors.orange },
 
@@ -592,7 +592,7 @@ M.plugins = {
     ["@punctuation.special"] = { fg = colors.gray_punc },
     ["@repeat"] = { fg = colors.red_key_w },
     ["@storageclass"] = { fg = colors.blue_type },
-    ["@string"] = { fg = colors.yellow },
+    ["@string"] = { fg = colors.fg },
     ["@string.escape"] = { fg = colors.boolean },
     ["@string.regex"] = { fg = colors.yellow },
     ["@text.strong"] = { fg = colors.yellow },
